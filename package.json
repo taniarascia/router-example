@@ -2,10 +2,11 @@
   "name": "router-example",
   "version": "0.1.0",
   "description": "Use React Router DOM to create a Single Page Application",
-  "homepage": "http://taniarascia.github.io/router-example",
+  "homepage": "https://taniarascia.github.io/router-example",
   "private": false,
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
@@ -15,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
