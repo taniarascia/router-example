@@ -17,7 +17,7 @@ export default function UserPage(props) {
     }
 
     getUser()
-  }, [])
+  }, [props.match.params.id])
 
   return user.loading ? (
     <div>Loading...</div>
